@@ -1,0 +1,28 @@
+{
+  "name": "notes-test-task",
+  "version": "1.0.0",
+  "description": "test-task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarikleon93/notes-test-task.git"
+  },
+  "author": "Yaroslav Leonov <Yarik.leon93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yarikleon93/notes-test-task/issues"
+  },
+  "homepage": "https://github.com/Yarikleon93/notes-test-task#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
