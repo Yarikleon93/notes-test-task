@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test":"jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,8 @@
   "homepage": "https://github.com/Yarikleon93/notes-test-task#readme",
   "dependencies": {
     "config": "^3.3.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
